@@ -1,0 +1,42 @@
+<LinearLayout android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/company_call"
+        android:elevation="10dp"
+        android:layout_weight="1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/phone_call"
+        />
+    <ImageView
+        android:id="@+id/company_fb"
+        android:elevation="10dp"
+        android:layout_weight="1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/fbook"
+        />
+    <ImageView
+        android:id="@+id/company_email"
+        android:elevation="10dp"
+        android:layout_weight="1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/email"
+        />
+    <ImageView
+        android:id="@+id/company_web"
+        android:elevation="10dp"
+        android:layout_weight="1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/domain"
+        />
+
+
+
+</LinearLayout>

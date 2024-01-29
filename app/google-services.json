@@ -1,0 +1,109 @@
+{
+  "project_info": {
+    "project_number": "932390207856",
+    "firebase_url": "https://pigeon-pro.firebaseio.com",
+    "project_id": "pigeon-pro",
+    "storage_bucket": "pigeon-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932390207856:android:16f9848fabfe740e140fb5",
+        "android_client_info": {
+          "package_name": "com.agmkhair.pigeonpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932390207856-grmghkm14leogffk5vgdc3ph1kb4ucfv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.agmkhair.pigeonpro",
+            "certificate_hash": "c88e2944b96c81a1e6f652069e4398636d05da64"
+          }
+        },
+        {
+          "client_id": "932390207856-6vfpu98pd50qi5vt9eh1e8o9c1cgdsrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK8_GPz9w2-fb3fNSqfSGamqdsby9GSn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932390207856-6vfpu98pd50qi5vt9eh1e8o9c1cgdsrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932390207856:android:851d0305e5466594140fb5",
+        "android_client_info": {
+          "package_name": "com.securesoft.pigeonpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932390207856-8ls6vufrc7068254h0ofqv92v70gdq39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.securesoft.pigeonpro",
+            "certificate_hash": "16bdda382ebc452f3b892d94c3f46cf882688895"
+          }
+        },
+        {
+          "client_id": "932390207856-am2fsu4dbr7dmd7gpd7lfe4iguoa2h33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.securesoft.pigeonpro",
+            "certificate_hash": "c9d896adb89caa09dfa91c3a3f4f010eaced4de0"
+          }
+        },
+        {
+          "client_id": "932390207856-h410k0teem2186n61264cln9cbf4q5fk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.securesoft.pigeonpro",
+            "certificate_hash": "c88e2944b96c81a1e6f652069e4398636d05da64"
+          }
+        },
+        {
+          "client_id": "932390207856-ijpbfl8ci38jbopo7vvm3o87jmekl66f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.securesoft.pigeonpro",
+            "certificate_hash": "c74704dd99c6324530a76d721e08295bbaecae28"
+          }
+        },
+        {
+          "client_id": "932390207856-6vfpu98pd50qi5vt9eh1e8o9c1cgdsrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK8_GPz9w2-fb3fNSqfSGamqdsby9GSn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932390207856-6vfpu98pd50qi5vt9eh1e8o9c1cgdsrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

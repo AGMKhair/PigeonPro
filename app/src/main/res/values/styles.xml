@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeAdmin" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryAdmin</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkAdmin</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <string-array name="planets_array">
+        <item>km</item>
+        <item>hr</item>
+
+    </string-array>
+
+</resources>

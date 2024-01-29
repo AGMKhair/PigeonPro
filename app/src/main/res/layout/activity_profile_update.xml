@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E5E5E5">
+
+
+        <include
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="90dp"
+            android:id="@+id/include_profile_img_id"
+            android:layout_marginEnd="128dp"
+            layout="@layout/image_add_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edit_profile_usarname_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_person_black"
+            android:layout_marginStart="70dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="67dp"
+            android:background="@drawable/etfield_default"
+            android:hint=" Name"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <EditText
+            android:id="@+id/edit_loft_name_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="70dp"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/ic_loft"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="67dp"
+            android:background="@drawable/etfield_default"
+            android:hint=" Loft Name"
+            android:inputType="text"
+            android:maxLength="30"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"
+            />
+
+        <EditText
+            android:id="@+id/edit_profile_phone_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="70dp"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/ic_phone"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="67dp"
+            android:background="@drawable/etfield_default"
+            android:digits="0123456789"
+            android:hint=" Phone Number"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"/>
+
+
+        <EditText
+            android:id="@+id/edit_profile_address_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="70dp"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/ic_address"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="67dp"
+            android:background="@drawable/etfield_default"
+            android:hint="  Address"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:maxLength="45"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <EditText
+            android:id="@+id/edit_profile_city_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="70dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:drawableLeft="@drawable/ic_city"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="67dp"
+            android:background="@drawable/etfield_default"
+            android:hint=" City"
+            android:inputType="text"
+            android:maxLength="35"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:id="@+id/et_profile_email_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/ic_email"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="67dp"
+            android:background="@drawable/etfield_default"
+            android:hint=" Email"
+            android:inputType="textEmailAddress"
+            android:maxLength="45"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded,RtlSymmetry" />
+
+        <Button
+            android:layout_marginTop="@dimen/_20sdp"
+            android:id="@+id/btn_user_profile_update_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="67dp"
+            android:layout_marginBottom="203dp"
+            android:background="@drawable/shape_btn_bg_design"
+            android:text="Save"
+            android:fontFamily="sans-serif-condensed"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+</layout>

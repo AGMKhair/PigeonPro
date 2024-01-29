@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivc_menu_profile_id"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:src="@drawable/ic_profile">
+
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+
+        android:id="@+id/tv_menu_profile_name_id"
+        android:text="John"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+
+    <LinearLayout
+        android:id="@+id/menu_my_account_ll_id"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/_20sdp"
+        >
+
+        <ImageView
+            android:src="@drawable/menu_account"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:textSize="@dimen/_16sdp"
+            android:text="@string/my_account"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#0C0C0C"/>
+    </LinearLayout>
+
+<!--
+    <LinearLayout
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:id="@+id/menu_donate_ll_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/_20sdp"
+        >
+
+        <ImageView
+            android:src="@drawable/menu_view_club"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:text="Donate"
+            android:textSize="@dimen/_16sdp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#0C0C0C"/>
+    </LinearLayout>
+-->
+
+
+    <LinearLayout
+        android:id="@+id/menu_about_us_ll_id"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/_20sdp"
+        >
+
+        <ImageView
+            android:src="@drawable/menu_apply_club"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:text=""
+            android:id="@+id/about_us_id"
+            android:textSize="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#0C0C0C"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/languageBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:checked="true"
+        android:padding="@dimen/_4sdp"
+        android:textColorHighlight="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textColorLink="@color/colorWhite"
+        android:textOff="অ"
+        android:textOn="A"
+        android:textSize="@dimen/_12sdp"
+        app:showText="true"
+        android:textColor="@color/colorWhite"
+        app:thumbTint="@color/colorPrimary">
+
+    </androidx.appcompat.widget.SwitchCompat>
+
+    <LinearLayout
+        android:id="@+id/menu_log_out_ll_id"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/_20sdp"
+        >
+
+        <ImageView
+            android:src="@drawable/menu_logout"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:text="@string/log_out"
+            android:textSize="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#0C0C0C"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_contact_us_ll_id"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/_20sdp" >
+
+
+  <!--      <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/menu_icon_contacts_us" />
+-->
+        <TextView
+            android:layout_marginRight="@dimen/_5sdp"
+            android:text="@string/contact_us"
+            android:textSize="@dimen/_16sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#0C0C0C"
+            android:textFontWeight="400"/>
+
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_marginLeft="@dimen/_20sdp"
+
+        android:background="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp">
+
+    </View>
+    <LinearLayout
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/company_call"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="@dimen/_5sdp"
+
+            android:elevation="5dp"
+            android:src="@drawable/phone_call" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/company_email"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_weight="1"
+            android:elevation="@dimen/_10sdp"
+            android:src="@drawable/email" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:id="@+id/company_web"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:elevation="5dp"
+            android:src="@drawable/domain" />
+
+
+    </LinearLayout>
+    <TextView
+        android:text="@string/follow_us"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:textSize="@dimen/_16sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#0C0C0C"
+        android:textFontWeight="400"/>
+    <View
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        >
+
+    </View>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_5sdp"
+        android:id="@+id/menu_follow_us_ll_id"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/_20sdp"
+        >
+
+
+        <!--      <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:src="@drawable/menu_icon_contacts_us" />
+      -->
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/youtube_ahsan"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:elevation="5dp"
+                android:src="@drawable/utube" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/youtube_ssbd"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_weight="1"
+                android:elevation="5dp"
+                android:src="@drawable/utube2" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/company_fb"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="@dimen/_9sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:elevation="5dp"
+                android:src="@drawable/fbook" />
+            <!--
+
+                    <ImageView
+                        android:id="@+id/company_email"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:elevation="5dp"
+                        android:src="@drawable/email" />
+
+                    <ImageView
+                        android:id="@+id/company_web"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:elevation="5dp"
+                        android:src="@drawable/domain" />
+            -->
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+</layout>
+
+<!--
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivc_menu_profile_id"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_profile"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:id="@+id/tv_menu_profile_name_id"
+        android:text="John"
+        android:layout_gravity="center_horizontal"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <view
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_10sdp"/>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        >
+
+        <ImageView
+            android:src="@drawable/menu_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="My Account"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>    <LinearLayout
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        >
+
+        <ImageView
+            android:src="@drawable/menu_view_club"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="View Club"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        >
+
+        <ImageView
+            android:src="@drawable/menu_apply_club"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="Apply Club"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        >
+
+        <ImageView
+            android:src="@drawable/menu_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="Pay Degree"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        >
+
+        <ImageView
+            android:src="@drawable/menu_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="Log out"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+-->

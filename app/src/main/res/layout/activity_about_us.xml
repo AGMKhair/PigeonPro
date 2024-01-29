@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_info"
+    >
+
+    <TextView
+        android:elevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:text="About Us"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#0C0C0C"
+        android:textSize="50sp"
+        android:gravity="center"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:elevation="5dp">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SponT"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#0C0C0C"
+                android:textSize="36sp"
+                android:textFontWeight="500"
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="#020831"/>
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="sans-serif-condensed"-->
+<!--                android:text="@string/about_us"-->
+<!--                android:textColor="#0C0C0C"-->
+<!--                android:textSize="16sp" />-->
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Services"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#0C0C0C"
+                android:textSize="20sp"
+                android:textFontWeight="500"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#020831"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/our_services"
+                android:textColor="#0C0C0C"
+                android:textSize="16sp" />
+
+           <!-- <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Our Special Partner"
+                android:textColor="#0C0C0C"
+                android:textSize="20sp"
+                android:textFontWeight="500"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#020831"
+                android:layout_marginTop="5dp"/>
+-->
+
+<!--
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textColor="#0C0C0C"
+                android:textSize="20sp"
+                android:textFontWeight="500"
+                android:fontFamily="sans-serif-condensed">
+
+            </TextView>-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#020831"
+                android:layout_marginTop="5dp"
+
+                />
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/address"-->
+<!--                android:textColor="#0C0C0C"-->
+<!--                android:textSize="16sp"-->
+<!--                android:textFontWeight="500"-->
+<!--                android:fontFamily="sans-serif-condensed">-->
+
+<!--            </TextView>-->
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

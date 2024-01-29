@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_search_id"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:ems="10"
+                android:cursorVisible="false"
+                android:background="@drawable/shape_search_hare"
+                android:drawableRight="@drawable/ic_search"
+                android:hint="@string/search_hare"
+                android:paddingLeft="30dp"
+                android:paddingRight="20dp">
+
+            </EditText>
+
+          <!--  <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/shape_btn_theme_bg"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:text="Top rated"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorWhite" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/shape_btn_theme_bg"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:text="Popular"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorWhite" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/shape_btn_theme_bg"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:text="Recent"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorWhite" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/shape_btn_theme_bg"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:text="Giribaz"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorWhite" />
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/shape_btn_theme_bg"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:text="Racing"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorWhite" />
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/shape_btn_theme_bg"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:text="Fancy"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorWhite" />
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_birds_show_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</layout>

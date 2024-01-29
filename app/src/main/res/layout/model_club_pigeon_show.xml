@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:padding="@dimen/_10sdp"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_70sdp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_model_club_pigeon_show_id"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_60sdp"
+        android:src="@drawable/ic_pigeon">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iv_model_club_pigeon_show_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_model_club_pigeon_name_show_id"
+            android:text="Pigeon Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_model_club_pigeon_ringID_show_id"
+            android:text="Birds id : 2500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textAllCaps="false"
+        android:text="Details"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimaryDarkAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+
+</RelativeLayout>

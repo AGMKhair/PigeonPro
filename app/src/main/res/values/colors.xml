@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#EF8838</color>
+    <color name="colorPrimaryDark">#EF8838</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="lightgreen">#26EF0C</color>
+
+    //Theme Admin
+    <color name="colorPrimaryAdmin">#353359</color>
+    <color name="colorPrimaryDarkAdmin">#353359</color>
+
+    // Theme Color
+    <color name="colorTheme">#EF8838</color>
+    <color name="colorThemeAdmin">#353359</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorText">#EF8838</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorTextGray">#8D8D8D</color>
+    <color name="colorBackground">#E5E5E5</color>
+
+    <color name="colorClubSearch">#EAEAEA</color>
+    <color name="colorBordor">#D1D1D1</color>
+
+
+    //Club Admin
+    <color name="colorFAB1">#2196F3</color>
+    <color name="colorFAB2">#E040FB</color>
+    <color name="blue">#1D3ACC</color>
+
+</resources>

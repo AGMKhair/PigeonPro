@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+<string name="app_name">Pigeon Pro</string>
+<string name="title_home">হোম</string>
+<string name="title_my_pigeon">আমার কবুতর</string>
+<string name="title_menu">মেনু</string>
+<string name="create_account" >Create Account</string>
+<string name="i_m_a_club_owner" >I\'m a Club Owner</string>
+<string name="our_services" >
+     1.	Android Applications Design and Development \n
+        2.	Game Development\n
+        3.	Web Design and Development\n
+        4.	Creative Graphics Design\n
+        5.	UI/UX Design\n
+</string>
+<string name="our_Teammembers" >
+         Pigeon and Pet Tips\n
+</string>
+<string name="address" >
+        দাত্তপারা,বিরুলিয়া\n
+         সাভার,ঢাকা\n
+         ডাক নাম্বার ১৩৪১\n
+
+    </string>
+<string name="about_us">SecureSoft is one of the promising Software ,mobile and web application Development Company of Bangladesh, which aims to creating a new standard in the era of software technology.</string>
+
+    <string name="about">আমাদের সম্পর্কে</string>
+
+
+
+    ////
+    <string name="pigeon_name">কবুতরের নাম</string>
+    <string name="ring_number">রিং নাম্বার</string>
+    <string name="Giribaz">গিরিবাজ</string>
+    <string name="Racer">রেসার</string>
+    <string name="auto">অটো</string>
+    <string name="male">পুরুষ</string>
+    <string name="female">মহিলা</string>
+    <string name="recent_results">নতুন রেজাল্ট : </string>
+    <string name="pigeon_racing_flying_details">কবুতরের রেসিং/ফ্লাইং এর তথ্য</string>
+    <string name="breded_by">প্রজনন করেছে</string>
+    <string name="me">আমি</string>
+    <string name="others">অন্য কেউ</string>
+    <string name="father_ring_number">পিতার রিং নাম্বার</string>
+    <string name="mother_ring_number">মাতার রিং নাম্বার</string>
+    <string name="category">বিভাগ :</string>
+    <string name="favorite">প্রিয়</string>
+    <string name="normal">সাধারণ</string>
+    <string name="save">সংরক্ষণ</string>
+
+    <string name="details">আরও তথ্য</string>
+    <string name="view">বিস্তারিত</string>
+    <string name="close">বাতিল</string>
+    <string name="pay_degree">বংশতালিকা  .</string>
+    <string name="gender">লিঙ্গ :</string>
+    <string name="edit">পরিবর্তন করুন</string>
+    <string name="owner">মালিক</string>
+    <string name="type_show">ধরন</string>
+    <string name="search_hare">খুঁজে বের করুন</string>
+
+    <string name="my_account">আমার একাউন্ট</string>
+    <string name="log_out">বাহির</string>
+    <string name="contact_us">যোগাযোগ করুন</string>
+    <string name="follow_us">অনুসরণ করুন</string>
+
+
+</resources>

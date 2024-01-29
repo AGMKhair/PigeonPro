@@ -1,0 +1,66 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Pigeon Pro</string>
+    <string name="title_home" >Home</string>
+    <string name="title_my_pigeon" > My Pigeon</string>
+    <string name="title_menu" >Menu</string>
+    <string name="create_account" >Create Account</string>
+    <string name="i_m_a_club_owner" >I\'m a Club Owner</string>
+    <string name="about">About Us</string>
+    <string name="our_services" >
+        1.	Android Applications Design and Development \n
+        2.	Game Development\n
+        3.	Web Design and Development\n
+        4.	Creative Graphics Design\n
+        5.	UI/UX Design\n
+</string>
+    <string name="our_Teammembers" >
+         Pigeon and Pet Tips\n
+
+
+
+</string>
+    <string name="address" >
+        Dattapara,Birulia\n
+         Savar,Dhaka\n
+         Zipcode 1341\n
+
+    </string>
+    <string name="about_us">SecureSoft is one of the promising Software ,mobile and web application Development Company of Bangladesh, which aims to creating a new standard in the era of software technology.</string>
+
+
+
+
+   /////    Add Pigeon page Information
+
+    <string name="pigeon_name">Pigeon Name</string>
+    <string name="ring_number">Ring Number</string>
+    <string name="Giribaz">Giribaz</string>
+    <string name="Racer">Racer</string>
+    <string name="auto">Auto</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="recent_results">Recent Results :</string>
+    <string name="pigeon_racing_flying_details">Pigeon Racing/Flying details</string>
+    <string name="breded_by">Breded By</string>
+    <string name="me">Me</string>
+    <string name="others">Others</string>
+    <string name="father_ring_number">Father Ring Number</string>
+    <string name="mother_ring_number">Mother Ring Number</string>
+    <string name="category">Category :</string>
+    <string name="favorite">Favorite</string>
+    <string name="normal">Normal</string>
+    <string name="save">Save</string>
+    <string name="details">Details</string>
+    <string name="view">View</string>
+    <string name="close">Close</string>
+    <string name="pay_degree">Pay Degree  .</string>
+    <string name="gender">Gender :</string>
+    <string name="edit">Edit</string>
+    <string name="owner">Owner</string>
+    <string name="type_show">Type</string>
+    <string name="search_hare">Search hare</string>
+    <string name="my_account">My Account</string>
+    <string name="log_out">Log out</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="follow_us">Follow Us</string>
+</resources>

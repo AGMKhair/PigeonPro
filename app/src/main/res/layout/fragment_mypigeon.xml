@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <!-- <TextView
+            android:layout_marginBottom="2dp"
+            android:id="@+id/text_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="My pigeon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+-->
+
+        <EditText
+            android:id="@+id/et_search_member_personal_pigeon_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:layout_below="@id/menubar_member_list_id"
+            android:background="@drawable/shape_search_hare"
+            android:drawableRight="@drawable/ic_search"
+            android:hint="@string/search_hare"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp">
+
+        </EditText>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_personal_pigeon_show_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+     <!--   <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_marginBottom="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Club Pigeon" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/rv_club_pigeon_show_id"
+            android:layout_height="wrap_content">
+
+        </androidx.recyclerview.widget.RecyclerView>
+  -->
+    </LinearLayout>
+
+</layout>

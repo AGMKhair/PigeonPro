@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:padding="20dp"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:layout_gravity="center"
+            android:text="Are you already a club  member ?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/dialog_btn_club_member_on_id"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/shape_dialog_no"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="30dp"
+                android:textColor="@color/colorWhite"
+                android:layout_width="wrap_content"
+                android:text="No"
+                />
+
+
+            <Button
+                android:id="@+id/dialog_btn_club_member_yes_id"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shape_dialog_yes"
+                android:layout_width="wrap_content"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorWhite"
+                android:paddingRight="10dp"
+                android:layout_height="30dp"        android:text="Yes"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</layout>
